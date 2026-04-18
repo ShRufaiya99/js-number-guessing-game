@@ -23,12 +23,18 @@ toggle.addEventListener("click",()=>{
 })
 
 toggle2.addEventListener("click",()=>{
-    if( b1input.value == b2input.value){
-        h2.innerHTML= " PLAYER two IS WINNER";
+    if( b2input.value ===""){
+        h2.innerHTML= " PLEASE ENTER YOUR NUMBER";
+        h2.style.position = 'absolute';
+        h2.style.top = '80%';
+        h2.style.left = '36.5%';
+
+    } else if (b1input.value == b2input.value){
+        h2.innerHTML= " PLAYER TWO IS WINNER";
         h2.style.position = 'absolute';
         h2.style.top = '80%';
         h2.style.left = '38%';
-    } else{
+    }else{
         h2.innerHTML= " PLAYER ONE IS WINNER";
         h2.style.position = 'absolute';
         h2.style.top = '80%';
