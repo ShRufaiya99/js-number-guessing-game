@@ -3,6 +3,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: arcadeclassic;
+    src: url(../arcadeclassic/ARCADECLASSIC.TTF);
+}
 
 :root{
     --primary:#FFD700;
@@ -15,9 +19,11 @@
     --soft-golden: #E6B800;
     --shadow:rgba(255, 255, 255, 0.5);
 }
+
 body{
-    background-color: #1A1A1A;
+   background-color: #1A1A1A;
    margin: 0 auto;
+   font-family: arcadeclassic;
 }
 
 .container{

@@ -27,7 +27,7 @@ toggle2.addEventListener("click",()=>{
         h2.innerHTML= " PLEASE ENTER YOUR NUMBER";
         h2.style.position = 'absolute';
         h2.style.top = '80%';
-        h2.style.left = '36.5%';
+        h2.style.left = '38%';
 
     } else if (b1input.value == b2input.value){
         h2.innerHTML= " PLAYER TWO IS WINNER";
